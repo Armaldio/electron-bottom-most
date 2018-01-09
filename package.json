@@ -6,7 +6,7 @@
   "main": "./build/Release/bottom-most",
   "license": "MIT",
   "scripts": {
-    "postinstall": "electron-rebuild -f -w bottom-most",
+    "_": "electron-rebuild -f -w electron-bottom-most",
     "start": "electron ."
   },
   "dependencies": {
