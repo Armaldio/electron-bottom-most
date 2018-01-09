@@ -1,11 +1,11 @@
-const {app, BrowserWindow} = require('electron');
+const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const url = require('url');
-const {SetBottomMost} = require('./build/Release/bottom-most');
+const { SetBottomMost } = require('./build/Release/bottom-most');
 
 let win;
 
-function createWindow () {
+function createWindow() {
     win = new BrowserWindow({
         width: 800,
         height: 600
@@ -20,7 +20,15 @@ function createWindow () {
     win.webContents.openDevTools();
 
     let handle = win.getNativeWindowHandle();
-    SetBottomMost(handle);
+
+    try {
+        SetBottomMost("strings are not supported as arguments");
+    } catch (e) {
+        console.log('There was an error while setting window to the background!', e)
+    }
+
+    var boolean = SetBottomMost(handle);
+    console.log("Return value is " + boolean);
 
     win.on('closed', () => {
         win = null;
