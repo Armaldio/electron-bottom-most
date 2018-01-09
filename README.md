@@ -11,10 +11,9 @@ I'm open to any contribution about other OS.
 ## Installation
 
 ```shell
-npm i -S electron-bottom-most                     # install the module
-npm i -g electron-rebuild                         # this module msut be installed in order to recompile this module to your current electron version
+npm i -S electron-bottom-most   # install the module
 
-electron-rebuild -f -w electron-bottom-most       # rebuild the module to match your electron version
+./node_modules/.bin/electron-rebuild -f -w electron-bottom-most   # rebuild the module to match your electron version
 ```
 
 ## Usage
