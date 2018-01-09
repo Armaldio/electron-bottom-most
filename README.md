@@ -51,3 +51,14 @@ let handle = mainWindow.getNativeWindowHandle();
 SetBottomMost(handle);
 
 ```
+
+
+## Authors
+
+* **Armaldio** - [Armaldio](https://github.com/armaldio)
+
+See also the list of [contributors](https://github.com/armaldio/electron-bottom-most/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

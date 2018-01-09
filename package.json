@@ -9,6 +9,10 @@
     "_": "electron-rebuild -f -w electron-bottom-most",
     "start": "electron ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/armaldio/electron-bottom-most"
+  },
   "dependencies": {
     "nan": "^2.8.0",
     "node-gyp": "^3.6.2"
