@@ -1,0 +1,19 @@
+{
+  "name": "electron-bottom-most",
+  "version": "0.0.0",
+  "description": "The an electron window bottom-most (set the window to the bottom of the z-index)",
+  "gypfile": true,
+  "main": "./build/Release/bottom-most",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "electron-rebuild -f -w bottom-most",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "nan": "^2.8.0",
+    "node-gyp": "^3.6.2"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.6.0"
+  }
+}
