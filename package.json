@@ -1,7 +1,7 @@
 {
   "name": "electron-bottom-most",
   "version": "0.2.0",
-  "description": "An electron window bottom-most (set the window to the bottom of the z-index)",
+  "description": "Put an electron window bottom-most (set the window to the bottom of the z-index)",
   "gypfile": true,
   "main": "./build/Release/bottom-most",
   "license": "MIT",
