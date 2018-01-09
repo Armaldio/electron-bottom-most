@@ -1,6 +1,6 @@
 {
   "name": "electron-bottom-most",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "The an electron window bottom-most (set the window to the bottom of the z-index)",
   "gypfile": true,
   "main": "./build/Release/bottom-most",
