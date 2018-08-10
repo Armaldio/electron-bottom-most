@@ -1,25 +1,30 @@
 sudo: false
 
+os:
+  - linux
+  - osx
+
 language: node_js
 
 node_js:
-- "10"
-- "9"
-- "8"
-- "7"
-- "6"
-- "4"
-- "0.10"
+  - "10"
+  - "9"
+  - "8"
+  - "7"
+  - "6"
+  - "4"
+  - "0.10"
 
 compiler:
-- clang
-- gcc
+  - clang
+  - gcc
 
 before_install:
 - npm install node-gyp -g
 
 install:
-- npm run compile
+  - npm install
+  - npm run compile
 
 before_script:
-- node-gyp clean
+  - node-gyp clean
