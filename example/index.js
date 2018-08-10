@@ -1,7 +1,7 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const url = require('url');
-const { SetBottomMost } = require('./build/Release/bottom-most');
+const { SetBottomMost } = require('../build/Release/bottom-most');
 
 let win;
 

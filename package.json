@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "electron-rebuild": "./node_modules/.bin/electron-rebuild -f -w electron-bottom-most",
-    "compile": "node-gyp rebuild & npm run electron-rebuild",
+    "compile": "node-gyp rebuild && npm run electron-rebuild",
     "start": "electron ."
   },
   "repository": {
@@ -16,10 +16,10 @@
   },
   "dependencies": {
     "nan": "^2.8.0",
-    "node-gyp": "^3.6.2"
+    "node-gyp": "^3.6.2",
+    "electron-rebuild": "^1.6.0"
   },
   "devDependencies": {
-    "electron": "^1.7.10",
-    "electron-rebuild": "^1.6.0"
+    "electron": "^1.7.10"
   }
 }

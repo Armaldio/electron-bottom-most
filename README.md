@@ -56,6 +56,12 @@ SetBottomMost(handle);
 ## Todo
 - [ ] Make it safe please
 
+## FAQ
+Python is not found
+> Use Python 2.7.x
+
+It doesn't build on Windows
+> Most probably you don't have build tools: `npm install --global --production windows-build-tools`, then retry
 
 ## Authors
 
