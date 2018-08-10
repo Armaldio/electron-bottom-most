@@ -1,3 +1,5 @@
+![image](https://badgen.net/badge/platform/Windows%20only?list=1) (PR welcome for linux and Mac!)
+
 This module allow you to set the window attached to the HWND handle to be placed at the lowest z-index available aka *bottom-most*
 
 It's the inverse of top-most.
@@ -5,8 +7,6 @@ It's the inverse of top-most.
 Electron indeed have a top-most property but do not have a bottom-most one.
 
 This native module is a wrapper around [SetWindowPosition](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633545(v=vs.85).aspx) Win32 API function.
-
-I'm open to any contribution about other OS.
 
 ## Installation
 
