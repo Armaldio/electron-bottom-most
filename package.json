@@ -19,7 +19,7 @@
     "node-gyp": "^3.6.2"
   },
   "devDependencies": {
-    "electron": "^1.7.10",
+    "electron": "^4.0.4",
     "electron-rebuild": "^1.6.0"
   }
 }
